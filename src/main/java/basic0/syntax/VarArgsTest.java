@@ -10,7 +10,7 @@ public class VarArgsTest {
     public static void main(String[] args) {
         String[] msgs = {"hello", "new", "world"};
         foo(msgs);
-        foo(null);
+        foo((String[])null);
         //The argument of type null should explicitly be cast to String[] 
         //for the invocation of the varargs method foo(String...) from type VarArrayTest. 
         //It could alternatively be cast to String for a varargs invocation
