@@ -2,6 +2,10 @@ package org.cjh.basic.number.overflow;
 
 import org.junit.Test;
 
+/**
+ * java中基本数值型变量也存在溢出的状况，而且jvm并不报错
+ *
+ */
 public class NumberOverflow {
 
     @Test
